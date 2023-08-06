@@ -114,6 +114,13 @@ body {
     justify-content: center;
 }
 
+.specification{
+    text-align: center; 
+    font-size: 44px; 
+    color: #003B60; 
+    margin-left: 600px;
+}
+
 .twisted{
     text-align: center;
     padding: 30px;
@@ -143,10 +150,15 @@ body {
     padding: 20px;
 }
 
+.cards{
+    display: flex; 
+    flex-direction: column; 
+    background-color: #F0F9FF; 
+    position: relative; 
+    top: -335px;
+}
+
 .card{
-    /* position: absolute;
-    bottom: -200px; */
-    /* background-color: white;  */
     display: flex;
     gap: 20px;
     margin-left: 315px;
@@ -158,4 +170,64 @@ body {
     width: 392px; 
     border-radius: 50px 0; 
     padding: 10px;
+}
+
+.order{
+    background-image: url(/images/918\ 1.png); 
+    position: relative; 
+    top: -335px;
+}
+
+.order-linear{
+    background: linear-gradient(360deg, #003b6079 15.39%, rgb(0, 59, 96) 131.97%);  
+    padding-top: 20px; 
+    padding-bottom: 150px;
+}
+
+.order-div{
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.order-div-1{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.privacy-div{
+    margin-left: 220px; 
+    padding-bottom: 0; 
+    padding-top: 0; 
+    position: absolute; 
+    bottom: -100px;
+}
+
+.privacy{
+    background-color: #003B60; 
+    border-radius: 50px 0; 
+    height: 277px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    width: 1300px; 
+    padding: 100px; 
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+
+.footer{
+    background-image: url(/images/roll-blue-denim-jeans-arranged-stack-wall-beauty-fashion-clothing-concept\ 1.png);
+    width: 1920px ; 
+    height: 399px; 
+    position: absolute; 
+    bottom: 50px; 
+    z-index: -1;
+}
+.footer-linear{
+    background: linear-gradient(0deg, #003B60 21.93%, rgba(0, 59, 96, 0) 107.27%); 
+    height: 399px;
 }
