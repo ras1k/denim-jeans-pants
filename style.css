@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-left: 72px;
+    margin-top: -11px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.blue-banner{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    background-color: #012A4A;
+    color: white;
+    padding: 10px;
+    border-radius: 30px 0;
+}
+.yellow-banner{
+    width: 262px;
+    height: 76px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    background-color:#F0E615;
+    color:#003B60;
+    padding: 10px;
+    border: 0;
+    border-radius: 70px 0;
+}
+
+.blue{
+    color:#003B60;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.center-text{
+    padding-top: 0;
+    width: 1290px;
+    height: 96px;
+    margin-left: 315px;
+    color: #003B60;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+.mid-section{
+    display: flex;
+    gap: 94px;
+    justify-content: center;
+    position: relative;
+    bottom: -300px;
+}
+
+.jeans{
+   font-size: 24px;
+   color: #003B60;
+}
+
+
+.details-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+.jeans-details{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    color: #003B60;
+}
+
+.denim-text{
+    font-size: 50px; 
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -400px;
+}
+
+.jeans-bg-section{
+    background-image: url('/images/Rectangle\ 5.png');padding-bottom: 300px;
+    position: relative;
+    top: -380px;
+}
+
+.jeans-bg{
+    background-color: white; 
+    border-radius: 50px 0;
+    padding: 29px;
+    box-shadow: 18px -27px #00000004;
+}
+
+.jeans-bg-div{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.twisted{
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+    position: relative;
+    top: -600px;
+    margin-bottom: 0;
+}
+
+.play-btn{
+    text-align: center;
+    position: relative;
+    top: -1100px;
+    margin-bottom: 0;
+}
+
+.security{
+    position: relative;
+    top: -700px;
+}
+
+.product{
+    color: #003B60;
+    font-size: 24px;
+    border: 1px solid #003B60;
+    width: 839px;
+    padding: 20px;
+}
+
+.card{
+    /* position: absolute;
+    bottom: -200px; */
+    /* background-color: white;  */
+    display: flex;
+    gap: 20px;
+    margin-left: 315px;
+}
+
+.card-div{
+    border: 1px solid #003B60; 
+    text-align: center; 
+    width: 392px; 
+    border-radius: 50px 0; 
+    padding: 10px;
+}
